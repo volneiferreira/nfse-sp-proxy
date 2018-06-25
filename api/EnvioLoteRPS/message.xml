@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<PedidoEnvioLoteRPS xmlns="http://www.prefeitura.sp.gov.br/nfe" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Cabecalho xmlns="" Versao="1">
+        <CPFCNPJRemetente>
+            <CNPJ>{{cnpjRemetente}}</CNPJ>
+        </CPFCNPJRemetente>
+        <transacao>{{transacao}}</transacao>
+        <dtInicio>{{dtInicio}}</dtInicio>
+        <dtFim>{{dtFim}}</dtFim>
+        <QtdRPS>{{qtdRps}}</QtdRPS>
+        <ValorTotalServicos>{{valorTotalServicos}}</ValorTotalServicos>
+        <ValorTotalDeducoes>{{valorTotalDeducoes}}</ValorTotalDeducoes>
+    </Cabecalho>
+    {{#rps}}
+    <RPS xmlns="">
+        <Assinatura>{{assinatura}}</Assinatura>
+        <ChaveRPS>
+            <InscricaoPrestador>{{incricaoPrestador}}</InscricaoPrestador>
+            <SerieRPS>{{serieRps}}</SerieRPS>
+            <NumeroRPS>{{numeroRps}}</NumeroRPS>
+        </ChaveRPS>
+        <TipoRPS>RPS</TipoRPS>
+        <DataEmissao>{{dataEmissao}}</DataEmissao>
+        <StatusRPS>{{statusRps}}</StatusRPS>
+        <TributacaoRPS>{{tributacaoRps}}</TributacaoRPS>
+        <ValorServicos>{{valorServicos}}</ValorServicos>
+        <ValorDeducoes>{{valorDeducoes}}</ValorDeducoes>
+        <CodigoServico>{{codigoServico}}</CodigoServico>
+        <AliquotaServicos>{{aliquotaServicos}}</AliquotaServicos>
+        <ISSRetido>{{issRetido}}</ISSRetido>
+        {{#tomador.cpf}}
+        <CPFCNPJTomador>
+            <CPF>{{tomador.cpf}}</CPF>
+        </CPFCNPJTomador>
+        {{/tomador.cpf}}
+        {{#tomador.cnpj}}
+        <CPFCNPJTomador>
+            <CNPJ>{{tomador.cnpj}}</CNPJ>
+        </CPFCNPJTomador>
+        {{/tomador.cnpj}}
+        <RazaoSocialTomador>{{tomador.razaoSocial}}</RazaoSocialTomador>
+        <EnderecoTomador>
+            <TipoLogradouro>{{tomador.endereco.tipoLogradouro}}</TipoLogradouro>
+            <Logradouro>{{tomador.endereco.logradouro}}</Logradouro>
+            <NumeroEndereco>{{tomador.endereco.numero}}</NumeroEndereco>
+            <ComplementoEndereco>{{tomador.endereco.complemento}}</ComplementoEndereco>
+            <Bairro>{{tomador.endereco.bairro}}</Bairro>
+            <Cidade>{{tomador.endereco.cidade}}</Cidade>
+            <UF>{{tomador.endereco.uf}}</UF>
+            <CEP>{{tomador.endereco.cep}}</CEP>
+        </EnderecoTomador>
+        <EmailTomador>{{tomador.email}}</EmailTomador>
+        <Discriminacao>{{discriminacao}}</Discriminacao>
+    </RPS>
+    {{/rps}}
+</PedidoEnvioLoteRPS>

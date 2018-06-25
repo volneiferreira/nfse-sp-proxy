@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p1:PedidoConsultaNFe xmlns:p1="http://www.prefeitura.sp.gov.br/nfe" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Cabecalho Versao="1">
+    <CPFCNPJRemetente>
+        <CNPJ>{{cnpjRemetente}}</CNPJ>
+    </CPFCNPJRemetente>
+</Cabecalho>
+<Detalhe>
+    <ChaveRPS>
+        <InscricaoPrestador>{{incricaoPrestador}}</InscricaoPrestador>
+        <SerieRPS>{{serieRps}}</SerieRPS>
+        <NumeroRPS>{{numeroRps}}</NumeroRPS>
+    </ChaveRPS>
+</Detalhe>
+</p1:PedidoConsultaNFe>

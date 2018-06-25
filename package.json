@@ -1,0 +1,19 @@
+{
+  "name": "nfe",
+  "version": "1.0.0",
+  "description": "NFe SP Bridge",
+  "author": "Volnei Ferreira",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/volneiferreira/nfe-sp-bridge.git"
+  },
+  "dependencies": {
+    "mustache": "^2.3.0",
+    "request": "^2.81.0",
+    "restify": "^6.0.1",
+    "unescape": "^1.0.1",
+    "xml-crypto": "^0.10.1",
+    "xmldom": "=0.1.19"
+  }
+}

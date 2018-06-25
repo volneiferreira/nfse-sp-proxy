@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:nfe="http://www.prefeitura.sp.gov.br/nfe">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <nfe:ConsultaNFeRequest>
+            <nfe:VersaoSchema>1</nfe:VersaoSchema>
+            <nfe:MensagemXML><![CDATA[{{{message}}}]]></nfe:MensagemXML>
+        </nfe:ConsultaNFeRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
