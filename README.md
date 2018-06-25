@@ -5,6 +5,7 @@ e o Web Service da prefeitura de SP para automatização do processo de
 emissão, consulta e cancelamento de NF-e.
 
 [NFE São Paulo](https://nfe.prefeitura.sp.gov.br/)
+
 [Manual de utilização do Web Service](http://notadomilhao.prefeitura.sp.gov.br/cidadao/informacoes-gerais/manuais-arquivos/nfe_web_service.pdf/view)
 
 ## Configuração
