@@ -1,7 +1,11 @@
-# NFe SP Bridge
+# NFS-e SP Bridge
 
 Aplicação desenvolvida em Node para servir de ponte entre sua aplicação 
-e o Web Service da prefeitura de SP.
+e o Web Service da prefeitura de SP para automatização do processo de 
+emissão, consulta e cancelamento de NF-e.
+
+[NFE São Paulo](https://nfe.prefeitura.sp.gov.br/)
+[Manual de utilização do Web Service](http://notadomilhao.prefeitura.sp.gov.br/cidadao/informacoes-gerais/manuais-arquivos/nfe_web_service.pdf/view)
 
 ## Configuração
 
@@ -10,7 +14,6 @@ na raiz da aplicação:
 
 - **cnpj**: CNPJ (Cadastro Nacional da Pessoa Jurídica);
 - **incricaoMunicipal**: Inscrição Municipal;
-- **webhook**: Webhook para serem enviadas as respostas via POST;
 
 Para efetuar a comunicação com o serviço da prefeitura de SP é necessário 
 que você já tenha o arquivo com o certificado A1 para sua empresa.

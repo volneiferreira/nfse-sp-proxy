@@ -1,12 +1,12 @@
 {
-  "name": "nfe",
+  "name": "nfsesp",
   "version": "1.0.0",
-  "description": "NFe SP Bridge",
+  "description": "NFSe SP Bridge",
   "author": "Volnei Ferreira",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/volneiferreira/nfe-sp-bridge.git"
+    "url": "https://github.com/volneiferreira/nfse-sp-bridge.git"
   },
   "dependencies": {
     "mustache": "^2.3.0",
