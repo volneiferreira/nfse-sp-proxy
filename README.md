@@ -1,6 +1,6 @@
-# NFS-e SP Bridge
+# NFS-e SP Proxy
 
-Aplicação desenvolvida em Node para servir de ponte entre sua aplicação 
+Aplicação desenvolvida em Node para servir de proxy entre sua aplicação 
 e o Web Service da prefeitura de SP para automatização do processo de 
 emissão, consulta e cancelamento de NF-e.
 
